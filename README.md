@@ -11,7 +11,7 @@ SlideFramic é um projeto desenvolvido para criar slides de forma simples, propo
 ## Como usar
 ### Estrutura do SlideFramic:
 
-- Visualize [aqui](https://github.com/luquinhaspmw/SlideFramic/SlideFramic/exemplo.html) o SlideFramic em diferentes tamanhos
+- Visualize [aqui](https://luquinhaspmw.github.io/SlideFramic) o SlideFramic em diferentes tamanhos
 
 - Para adicionar um slide utlizando o SlideFramic só precisa utilizar a estrutura abaixo como base, podendo definir a cor do botão, o tempo de um slide pra outro, e a quantidade de imagens que quiser.
 > Exemplo de um único slide
@@ -47,7 +47,7 @@ SlideFramic é um projeto desenvolvido para criar slides de forma simples, propo
 ### Estilos do SlideFramic:
 - A div `carrosel` ocupa 100% do seu elemento pai, então você pode definir a largura e a altura do slide a partir disso.
   
-- Para alterar a cor do botão ou a cor do ícone dentro do botão você deve utilizar as classes predefinidas, aqui está a [lista](https://github.com/luquinhaspmw/SlideFramic/SlideFramic/exemplo.html#cores) com as variações de cores disponíveis.
+- Para alterar a cor do botão ou a cor do ícone dentro do botão você deve utilizar as classes predefinidas, aqui está a [lista](https://luquinhaspmw.github.io/SlideFramic/index.html#cores) com as variações de cores disponíveis.
 
 > As classes `prev` e `next` são padrões, sem elas o slide não irá funcionar.
 
