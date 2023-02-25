@@ -1,0 +1,60 @@
+@import url("classes_pre/cores.css");
+@import url("fontawesome/css/all.min.css");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+}
+.carrosel{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.carrosel button{
+    border: none;
+    padding: 30px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 2em;
+}
+.next, .prev{
+    position: absolute;
+}
+.prev{
+    margin-left: 10px;
+    z-index: 1;
+    left: 0;
+}
+.next{
+    margin-right: 10px;
+    right: 0;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    transition: .6s ease-in-out;
+    transform: translateX(0);
+}
+.imgContainer{
+    min-width: 100%;
+    min-height: 100%;
+}
+img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,52 @@
+@import url("SlideFramic/assets/css/style.css");
+/* PARA EXEMPLO */
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+}
+.elementoPai{
+    width: 70%;
+    height: 100%;
+}
+.elementoPai2{
+    width: 30%;
+    height: 100%;
+}
+
+.elementoPai3{
+    width: 100%;
+    height: 100%;
+}
+
+.tableColors{
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: monospace, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #212529;
+  }
+  
+  th {
+    background-color: #e9ecef;
+    font-weight: 600;
+    border: 1px solid #dee2e6;
+    padding: .75rem;
+    text-align: center;
+  }
+  
+  td {
+    border: 1px solid #dee2e6;
+    padding: .75rem;
+    vertical-align: top;
+  }
+  
